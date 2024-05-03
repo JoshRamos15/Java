@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_HYtdIFWpEe271psxcsCnaw" name="lab_5_par_2">
+    <eAnnotations xmi:id="_HjE6EFWpEe271psxcsCnaw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_HjE6EVWpEe271psxcsCnaw" source="codegen">
+        <details xmi:id="_HjE6ElWpEe271psxcsCnaw" key="codegenDirectory" value="/lab 5 par 2/src"/>
+        <details xmi:id="_HjPSIFWpEe271psxcsCnaw" key="observedFolders" value="/lab 5 par 2/src"/>
+        <details xmi:id="_LfY-oFWpEe271psxcsCnaw" key="AssociatedSourceCode" value="/lab 5 par 2/src/lab5p2/part2.java;4149784861/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_LaoacFWpEe271psxcsCnaw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_LapBgFWpEe271psxcsCnaw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_LapBgVWpEe271psxcsCnaw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_LapBglWpEe271psxcsCnaw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_LapokFWpEe271psxcsCnaw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_LapokVWpEe271psxcsCnaw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_LapoklWpEe271psxcsCnaw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Lapok1WpEe271psxcsCnaw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_LaqPoFWpEe271psxcsCnaw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_LardwFWpEe271psxcsCnaw" name="lab5p2">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Lasr4FWpEe271psxcsCnaw" name="part2"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_T4184FWpEe271psxcsCnaw" name="BubbleSort" visibility="package">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T5GbkFWpEe271psxcsCnaw" name="bubbleSort" specification="_T46OUFWpEe271psxcsCnaw">
+          <ownedParameter xmi:id="_T5GbkVWpEe271psxcsCnaw" name="list">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T5GbklWpEe271psxcsCnaw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean needNextPass = true;&#xD;
+		&#xD;
+		long startTime = System.nanoTime();&#xD;
+		for (int k = 1; k &lt; list.length &amp;&amp; needNextPass; k++) {&#xD;
+	 	&#xD;
+	  	needNextPass = false;&#xD;
+	  	for (int i = 0; i &lt; list.length - k; i++) {&#xD;
+	    	if (list[i] > list[i + 1]) {&#xD;
+	     	&#xD;
+	      	int temp = list[i];&#xD;
+	      	list[i] = list[i + 1];&#xD;
+	      	list[i + 1] = temp;&#xD;
+	      	&#xD;
+	      	needNextPass = true;&#xD;
+	    	}&#xD;
+	  	}&#xD;
+		}&#xD;
+		long endTime = System.nanoTime();&#xD;
+		&#xD;
+		long timeElapsed = endTime - startTime;&#xD;
+		System.out.println(&quot;Execution time in nanoseconds: &quot; + timeElapsed);&#xD;
+		&#xD;
+		&#xD;
+	  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T5Gbk1WpEe271psxcsCnaw" name="main" specification="_T494sFWpEe271psxcsCnaw">
+          <ownedParameter xmi:id="_T5GblFWpEe271psxcsCnaw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T5GblVWpEe271psxcsCnaw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int[] list = {1,1,9,8,2,5,6};&#xD;
+		bubbleSort(list);&#xD;
+		for (int i = 0; i &lt; list.length; i++)&#xD;
+	  	System.out.print(list[i] + &quot; &quot;);&#xD;
+	  </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_T46OUFWpEe271psxcsCnaw" name="bubbleSort" isStatic="true" method="_T5GbkFWpEe271psxcsCnaw">
+          <ownedParameter xmi:id="_T46OUVWpEe271psxcsCnaw" name="list">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T49RoFWpEe271psxcsCnaw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_T494sFWpEe271psxcsCnaw" name="main" isStatic="true" method="_T5Gbk1WpEe271psxcsCnaw">
+          <ownedParameter xmi:id="_T494sVWpEe271psxcsCnaw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T4-fwFWpEe271psxcsCnaw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_HjGvQFWpEe271psxcsCnaw">
+      <eAnnotations xmi:id="_HjGvQVWpEe271psxcsCnaw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_HjJykFWpEe271psxcsCnaw" base_Package="_HYtdIFWpEe271psxcsCnaw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_DETYYDWOEe2ioKx-Jmz9UQ" name="Intereface_Lab">
+    <eAnnotations xmi:id="_DJsOsDWOEe2ioKx-Jmz9UQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_DJsOsTWOEe2ioKx-Jmz9UQ" source="codegen">
+        <details xmi:id="_DJsOsjWOEe2ioKx-Jmz9UQ" key="codegenDirectory" value="/Intereface Lab/src"/>
+        <details xmi:id="_DKNzIDWOEe2ioKx-Jmz9UQ" key="observedFolders" value="/Intereface Lab/src"/>
+      </contents>
+    </eAnnotations>
+    <profileApplication xmi:id="_DJs1wDWOEe2ioKx-Jmz9UQ">
+      <eAnnotations xmi:id="_DJs1wTWOEe2ioKx-Jmz9UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_DJuq8DWOEe2ioKx-Jmz9UQ" base_Package="_DETYYDWOEe2ioKx-Jmz9UQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>
