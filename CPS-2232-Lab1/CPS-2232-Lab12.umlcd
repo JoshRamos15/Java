@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_cH1ZMDWMEe2ioKx-Jmz9UQ">
+  <modelElement href="CPS-2232-Lab12.uml#_cd-BQDWMEe2ioKx-Jmz9UQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cjmIIDWMEe2ioKx-Jmz9UQ" sourceAnchor="180.0,0.0" targetAnchor="89.0,90.0" dashed="true" superClass="_ckAX0DWMEe2ioKx-Jmz9UQ" subClass="_ckv-sDWMEe2ioKx-Jmz9UQ">
+    <modelElement href="CPS-2232-Lab12.uml#_cfpcQDWMEe2ioKx-Jmz9UQ"/>
+    <bendpoints xmi:id="_pjrTQDWMEe2ioKx-Jmz9UQ" sourceY="-112" targetX="-127" targetY="27"/>
+    <bendpoints xmi:id="_pjrTQTWMEe2ioKx-Jmz9UQ" sourceX="127" sourceY="-112" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_cjmvMDWMEe2ioKx-Jmz9UQ" sourceAnchor="175.0,0.0" targetAnchor="89.0,90.0" dashed="true" superClass="_ckAX0DWMEe2ioKx-Jmz9UQ" subClass="_clMDkDWMEe2ioKx-Jmz9UQ">
+    <modelElement href="CPS-2232-Lab12.uml#_cfrRcDWMEe2ioKx-Jmz9UQ"/>
+    <bendpoints xmi:id="_pjoP8DWMEe2ioKx-Jmz9UQ" sourceY="-28" targetX="330" targetY="27"/>
+    <bendpoints xmi:id="_pjo3ADWMEe2ioKx-Jmz9UQ" sourceX="-330" sourceY="-28" targetY="27"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_ckAX0DWMEe2ioKx-Jmz9UQ" name="Edible" subclassedBy="_cjmIIDWMEe2ioKx-Jmz9UQ _cjmvMDWMEe2ioKx-Jmz9UQ">
+    <modelElement href="CPS-2232-Lab12.uml#_ceXp4DWMEe2ioKx-Jmz9UQ"/>
+    <visualProperties xmi:id="_ckAX0TWMEe2ioKx-Jmz9UQ" position="439.0,-9.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ckAX0jWMEe2ioKx-Jmz9UQ" label="~"/>
+    <operations xmi:id="_ckAX0zWMEe2ioKx-Jmz9UQ" abstractOperation="true" name="howToEat">
+      <modelElement href="CPS-2232-Lab12.uml#_cfGCoDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_ckAX1DWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_ckAX1TWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ckAX1jWMEe2ioKx-Jmz9UQ">
+        <modelElement href="CPS-2232-Lab12.uml#_cfHQwDWMEe2ioKx-Jmz9UQ"/>
+        <type xmi:id="_ckAX1zWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ckAX2DWMEe2ioKx-Jmz9UQ" name="howToCook">
+      <modelElement href="CPS-2232-Lab12.uml#_cfH30DWMEe2ioKx-Jmz9UQ"/>
+      <keywords xmi:id="_ckAX2TWMEe2ioKx-Jmz9UQ" keyword="defender"/>
+      <stereotypes xmi:id="_ckAX2jWMEe2ioKx-Jmz9UQ" name="LegacyStyledElement">
+        <modelElement href="CPS-2232-Lab12.uml#_cfJtADWMEe2ioKx-Jmz9UQ"/>
+      </stereotypes>
+      <visibility xmi:id="_ckAX2zWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_ckAX3DWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ckAX3TWMEe2ioKx-Jmz9UQ">
+        <modelElement href="CPS-2232-Lab12.uml#_cfIe4DWMEe2ioKx-Jmz9UQ"/>
+        <type xmi:id="_ckAX3jWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <memberTypes xmi:id="_ckAX3zWMEe2ioKx-Jmz9UQ" name="Sushi">
+      <modelElement href="CPS-2232-Lab12.uml#_ceciYDWMEe2ioKx-Jmz9UQ"/>
+      <keywords xmi:id="_ckAX4DWMEe2ioKx-Jmz9UQ" keyword="sameFile"/>
+      <visibility xmi:id="_ckAX4TWMEe2ioKx-Jmz9UQ" label="~"/>
+      <attributes xmi:id="_ckAX4jWMEe2ioKx-Jmz9UQ" name="Name">
+        <modelElement href="CPS-2232-Lab12.uml#_cfwJ8DWMEe2ioKx-Jmz9UQ"/>
+        <visibility xmi:id="_ckA-4DWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA-4TWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ckA-4jWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </attributes>
+      <attributes xmi:id="_ckA-4zWMEe2ioKx-Jmz9UQ" name="Flavor">
+        <modelElement href="CPS-2232-Lab12.uml#_cfymMDWMEe2ioKx-Jmz9UQ"/>
+        <visibility xmi:id="_ckA-5DWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA-5TWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ckA-5jWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </attributes>
+      <attributes xmi:id="_ckA-5zWMEe2ioKx-Jmz9UQ" name="Rating">
+        <modelElement href="CPS-2232-Lab12.uml#_cfzNQDWMEe2ioKx-Jmz9UQ"/>
+        <visibility xmi:id="_ckA-6DWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA-6TWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ckA-6jWMEe2ioKx-Jmz9UQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </attributes>
+      <operations xmi:id="_ckA-6zWMEe2ioKx-Jmz9UQ" name="Sushi">
+        <modelElement href="CPS-2232-Lab12.uml#_ceipADWMEe2ioKx-Jmz9UQ"/>
+        <keywords xmi:id="_ckA-7DWMEe2ioKx-Jmz9UQ" keyword="create"/>
+        <visibility xmi:id="_ckA-7TWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA-7jWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_ckA-7zWMEe2ioKx-Jmz9UQ">
+          <modelElement href="CPS-2232-Lab12.uml#_cemTYTWMEe2ioKx-Jmz9UQ"/>
+          <type xmi:id="_ckA-8DWMEe2ioKx-Jmz9UQ" name="Sushi">
+            <modelElement href="CPS-2232-Lab12.uml#_ceciYDWMEe2ioKx-Jmz9UQ"/>
+          </type>
+        </outParameters>
+        <parameters xmi:id="_ckA-8TWMEe2ioKx-Jmz9UQ" name="Name">
+          <modelElement href="CPS-2232-Lab12.uml#_cej3IDWMEe2ioKx-Jmz9UQ"/>
+          <cardinality xmi:id="_ckA-8jWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+          <type xmi:id="_ckA-8zWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+        <parameters xmi:id="_ckA-9DWMEe2ioKx-Jmz9UQ" name="Flavor">
+          <modelElement href="CPS-2232-Lab12.uml#_cekeMDWMEe2ioKx-Jmz9UQ"/>
+          <cardinality xmi:id="_ckA-9TWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+          <type xmi:id="_ckA-9jWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+        <parameters xmi:id="_ckA-9zWMEe2ioKx-Jmz9UQ" name="Rating">
+          <modelElement href="CPS-2232-Lab12.uml#_celFQDWMEe2ioKx-Jmz9UQ"/>
+          <cardinality xmi:id="_ckA--DWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+          <type xmi:id="_ckA--TWMEe2ioKx-Jmz9UQ" name="int">
+            <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </type>
+        </parameters>
+      </operations>
+      <operations xmi:id="_ckA--jWMEe2ioKx-Jmz9UQ" name="howToEat">
+        <modelElement href="CPS-2232-Lab12.uml#_cem6cDWMEe2ioKx-Jmz9UQ"/>
+        <stereotypes xmi:id="_ckA--zWMEe2ioKx-Jmz9UQ" name="LegacyStyledElement">
+          <modelElement href="CPS-2232-Lab12.uml#_ceovoDWMEe2ioKx-Jmz9UQ"/>
+        </stereotypes>
+        <stereotypes xmi:id="_ckA-_DWMEe2ioKx-Jmz9UQ" name="Annotations">
+          <modelElement href="CPS-2232-Lab12.uml#_cerL4DWMEe2ioKx-Jmz9UQ"/>
+        </stereotypes>
+        <visibility xmi:id="_ckA-_TWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA-_jWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_ckA-_zWMEe2ioKx-Jmz9UQ">
+          <modelElement href="CPS-2232-Lab12.uml#_cenhgDWMEe2ioKx-Jmz9UQ"/>
+          <type xmi:id="_ckA_ADWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </outParameters>
+      </operations>
+      <operations xmi:id="_ckA_ATWMEe2ioKx-Jmz9UQ" name="toString">
+        <modelElement href="CPS-2232-Lab12.uml#_cetBEDWMEe2ioKx-Jmz9UQ"/>
+        <stereotypes xmi:id="_ckA_AjWMEe2ioKx-Jmz9UQ" name="LegacyStyledElement">
+          <modelElement href="CPS-2232-Lab12.uml#_cetoITWMEe2ioKx-Jmz9UQ"/>
+        </stereotypes>
+        <stereotypes xmi:id="_ckA_AzWMEe2ioKx-Jmz9UQ" name="Annotations">
+          <modelElement href="CPS-2232-Lab12.uml#_ceu2QDWMEe2ioKx-Jmz9UQ"/>
+        </stereotypes>
+        <visibility xmi:id="_ckA_BDWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA_BTWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_ckA_BjWMEe2ioKx-Jmz9UQ">
+          <modelElement href="CPS-2232-Lab12.uml#_cetoIDWMEe2ioKx-Jmz9UQ"/>
+          <type xmi:id="_ckA_BzWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </outParameters>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_ckA_CDWMEe2ioKx-Jmz9UQ" name="Soup">
+      <modelElement href="CPS-2232-Lab12.uml#_cewEYDWMEe2ioKx-Jmz9UQ"/>
+      <keywords xmi:id="_ckA_CTWMEe2ioKx-Jmz9UQ" keyword="sameFile"/>
+      <visibility xmi:id="_ckA_CjWMEe2ioKx-Jmz9UQ" label="~"/>
+      <attributes xmi:id="_ckA_CzWMEe2ioKx-Jmz9UQ" name="name">
+        <modelElement href="CPS-2232-Lab12.uml#_cfz0UDWMEe2ioKx-Jmz9UQ"/>
+        <visibility xmi:id="_ckA_DDWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA_DTWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ckA_DjWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </attributes>
+      <attributes xmi:id="_ckA_DzWMEe2ioKx-Jmz9UQ" name="flavor">
+        <modelElement href="CPS-2232-Lab12.uml#_cfz0UTWMEe2ioKx-Jmz9UQ"/>
+        <stereotypes xmi:id="_ckA_EDWMEe2ioKx-Jmz9UQ" name="LegacyStyledElement">
+          <modelElement href="CPS-2232-Lab12.uml#_cf1CcDWMEe2ioKx-Jmz9UQ"/>
+        </stereotypes>
+        <visibility xmi:id="_ckA_ETWMEe2ioKx-Jmz9UQ" label="-"/>
+        <cardinality xmi:id="_ckA_EjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ckA_EzWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </attributes>
+      <attributes xmi:id="_ckA_FDWMEe2ioKx-Jmz9UQ" name="rating">
+        <modelElement href="CPS-2232-Lab12.uml#_cf1pgDWMEe2ioKx-Jmz9UQ"/>
+        <visibility xmi:id="_ckA_FTWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA_FjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ckA_FzWMEe2ioKx-Jmz9UQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </attributes>
+      <operations xmi:id="_ckA_GDWMEe2ioKx-Jmz9UQ" name="Soup">
+        <modelElement href="CPS-2232-Lab12.uml#_cexSgDWMEe2ioKx-Jmz9UQ"/>
+        <keywords xmi:id="_ckA_GTWMEe2ioKx-Jmz9UQ" keyword="create"/>
+        <visibility xmi:id="_ckA_GjWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA_GzWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_ckA_HDWMEe2ioKx-Jmz9UQ">
+          <modelElement href="CPS-2232-Lab12.uml#_cezHsTWMEe2ioKx-Jmz9UQ"/>
+          <type xmi:id="_ckA_HTWMEe2ioKx-Jmz9UQ" name="Soup">
+            <modelElement href="CPS-2232-Lab12.uml#_cewEYDWMEe2ioKx-Jmz9UQ"/>
+          </type>
+        </outParameters>
+        <parameters xmi:id="_ckA_HjWMEe2ioKx-Jmz9UQ" name="name">
+          <modelElement href="CPS-2232-Lab12.uml#_cex5kDWMEe2ioKx-Jmz9UQ"/>
+          <cardinality xmi:id="_ckA_HzWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+          <type xmi:id="_ckA_IDWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+        <parameters xmi:id="_ckA_ITWMEe2ioKx-Jmz9UQ" name="flavor">
+          <modelElement href="CPS-2232-Lab12.uml#_ceygoDWMEe2ioKx-Jmz9UQ"/>
+          <cardinality xmi:id="_ckA_IjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+          <type xmi:id="_ckA_IzWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+        <parameters xmi:id="_ckA_JDWMEe2ioKx-Jmz9UQ" name="rating">
+          <modelElement href="CPS-2232-Lab12.uml#_ceygoTWMEe2ioKx-Jmz9UQ"/>
+          <cardinality xmi:id="_ckA_JTWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+          <type xmi:id="_ckA_JjWMEe2ioKx-Jmz9UQ" name="int">
+            <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </type>
+        </parameters>
+      </operations>
+      <operations xmi:id="_ckA_JzWMEe2ioKx-Jmz9UQ" name="getflavor">
+        <modelElement href="CPS-2232-Lab12.uml#_cezuwDWMEe2ioKx-Jmz9UQ"/>
+        <visibility xmi:id="_ckA_KDWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA_KTWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_ckA_KjWMEe2ioKx-Jmz9UQ">
+          <modelElement href="CPS-2232-Lab12.uml#_cezuwTWMEe2ioKx-Jmz9UQ"/>
+          <type xmi:id="_ckA_KzWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </outParameters>
+      </operations>
+      <operations xmi:id="_ckA_LDWMEe2ioKx-Jmz9UQ" name="setflavor">
+        <modelElement href="CPS-2232-Lab12.uml#_ce2yEDWMEe2ioKx-Jmz9UQ"/>
+        <visibility xmi:id="_ckA_LTWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckA_LjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <parameters xmi:id="_ckA_LzWMEe2ioKx-Jmz9UQ" name="flavor">
+          <modelElement href="CPS-2232-Lab12.uml#_ce3ZIDWMEe2ioKx-Jmz9UQ"/>
+          <cardinality xmi:id="_ckA_MDWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+          <type xmi:id="_ckA_MTWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+      </operations>
+      <operations xmi:id="_ckA_MjWMEe2ioKx-Jmz9UQ" name="howToEat">
+        <modelElement href="CPS-2232-Lab12.uml#_ce3ZITWMEe2ioKx-Jmz9UQ"/>
+        <stereotypes xmi:id="_ckBl8DWMEe2ioKx-Jmz9UQ" name="LegacyStyledElement">
+          <modelElement href="CPS-2232-Lab12.uml#_ce4nQDWMEe2ioKx-Jmz9UQ"/>
+        </stereotypes>
+        <stereotypes xmi:id="_ckBl8TWMEe2ioKx-Jmz9UQ" name="Annotations">
+          <modelElement href="CPS-2232-Lab12.uml#_ce5OUDWMEe2ioKx-Jmz9UQ"/>
+        </stereotypes>
+        <visibility xmi:id="_ckBl8jWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckBl8zWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_ckBl9DWMEe2ioKx-Jmz9UQ">
+          <modelElement href="CPS-2232-Lab12.uml#_ce4AMDWMEe2ioKx-Jmz9UQ"/>
+          <type xmi:id="_ckBl9TWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </outParameters>
+      </operations>
+      <operations xmi:id="_ckBl9jWMEe2ioKx-Jmz9UQ" name="toString">
+        <modelElement href="CPS-2232-Lab12.uml#_ce84sDWMEe2ioKx-Jmz9UQ"/>
+        <stereotypes xmi:id="_ckBl9zWMEe2ioKx-Jmz9UQ" name="LegacyStyledElement">
+          <modelElement href="CPS-2232-Lab12.uml#_ce-G0DWMEe2ioKx-Jmz9UQ"/>
+        </stereotypes>
+        <stereotypes xmi:id="_ckBl-DWMEe2ioKx-Jmz9UQ" name="Annotations">
+          <modelElement href="CPS-2232-Lab12.uml#_ce-G0TWMEe2ioKx-Jmz9UQ"/>
+        </stereotypes>
+        <visibility xmi:id="_ckBl-TWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckBl-jWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <outParameters xmi:id="_ckBl-zWMEe2ioKx-Jmz9UQ">
+          <modelElement href="CPS-2232-Lab12.uml#_ce84sTWMEe2ioKx-Jmz9UQ"/>
+          <type xmi:id="_ckBl_DWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </outParameters>
+      </operations>
+    </memberTypes>
+    <memberTypes xmi:id="_ckCNADWMEe2ioKx-Jmz9UQ" name="EdibleLab">
+      <modelElement href="CPS-2232-Lab12.uml#_cfBxMDWMEe2ioKx-Jmz9UQ"/>
+      <keywords xmi:id="_ckCNATWMEe2ioKx-Jmz9UQ" keyword="sameFile"/>
+      <visibility xmi:id="_ckCNAjWMEe2ioKx-Jmz9UQ" label="+"/>
+      <operations xmi:id="_ckCNAzWMEe2ioKx-Jmz9UQ" name="main" staticOperation="true">
+        <modelElement href="CPS-2232-Lab12.uml#_cfDmYDWMEe2ioKx-Jmz9UQ"/>
+        <visibility xmi:id="_ckCNBDWMEe2ioKx-Jmz9UQ" label="+"/>
+        <cardinality xmi:id="_ckCNBTWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <parameters xmi:id="_ckCNBjWMEe2ioKx-Jmz9UQ" name="args">
+          <modelElement href="CPS-2232-Lab12.uml#_cfDmYTWMEe2ioKx-Jmz9UQ"/>
+          <cardinality xmi:id="_ckCNBzWMEe2ioKx-Jmz9UQ" label="1..*" max="-1" min="1"/>
+          <type xmi:id="_ckCNCDWMEe2ioKx-Jmz9UQ" name="String">
+            <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </type>
+        </parameters>
+      </operations>
+    </memberTypes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_clMDkDWMEe2ioKx-Jmz9UQ" name="Soup" generalizations="_cjmvMDWMEe2ioKx-Jmz9UQ">
+    <modelElement href="CPS-2232-Lab12.uml#_cewEYDWMEe2ioKx-Jmz9UQ"/>
+    <visualProperties xmi:id="_clMDkTWMEe2ioKx-Jmz9UQ" position="683.0,136.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_clMDkjWMEe2ioKx-Jmz9UQ" keyword="sameFile"/>
+    <visibility xmi:id="_clMDkzWMEe2ioKx-Jmz9UQ" label="~"/>
+    <attributes xmi:id="_clMDlDWMEe2ioKx-Jmz9UQ" name="name">
+      <modelElement href="CPS-2232-Lab12.uml#_cfz0UDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_clMDlTWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_clMDljWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <type xmi:id="_clMDlzWMEe2ioKx-Jmz9UQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_clMDmDWMEe2ioKx-Jmz9UQ" name="flavor">
+      <modelElement href="CPS-2232-Lab12.uml#_cfz0UTWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_clMDmTWMEe2ioKx-Jmz9UQ" label="-"/>
+      <cardinality xmi:id="_clMDmjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <type xmi:id="_clPt8DWMEe2ioKx-Jmz9UQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_clPt8TWMEe2ioKx-Jmz9UQ" name="rating">
+      <modelElement href="CPS-2232-Lab12.uml#_cf1pgDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_clPt8jWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_clPt8zWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <type xmi:id="_clPt9DWMEe2ioKx-Jmz9UQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_clPt9TWMEe2ioKx-Jmz9UQ" name="Soup">
+      <modelElement href="CPS-2232-Lab12.uml#_cexSgDWMEe2ioKx-Jmz9UQ"/>
+      <keywords xmi:id="_clPt9jWMEe2ioKx-Jmz9UQ" keyword="create"/>
+      <visibility xmi:id="_clPt9zWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_clPt-DWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_clPt-TWMEe2ioKx-Jmz9UQ">
+        <modelElement href="CPS-2232-Lab12.uml#_cezHsTWMEe2ioKx-Jmz9UQ"/>
+        <type xmi:id="_clPt-jWMEe2ioKx-Jmz9UQ" name="Soup">
+          <modelElement href="CPS-2232-Lab12.uml#_cewEYDWMEe2ioKx-Jmz9UQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_clPt-zWMEe2ioKx-Jmz9UQ" name="name">
+        <modelElement href="CPS-2232-Lab12.uml#_cex5kDWMEe2ioKx-Jmz9UQ"/>
+        <cardinality xmi:id="_clPt_DWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_clPt_TWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_clPt_jWMEe2ioKx-Jmz9UQ" name="flavor">
+        <modelElement href="CPS-2232-Lab12.uml#_ceygoDWMEe2ioKx-Jmz9UQ"/>
+        <cardinality xmi:id="_clPt_zWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_clPuADWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_clPuATWMEe2ioKx-Jmz9UQ" name="rating">
+        <modelElement href="CPS-2232-Lab12.uml#_ceygoTWMEe2ioKx-Jmz9UQ"/>
+        <cardinality xmi:id="_clPuAjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_clPuAzWMEe2ioKx-Jmz9UQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_clPuBDWMEe2ioKx-Jmz9UQ" name="getflavor">
+      <modelElement href="CPS-2232-Lab12.uml#_cezuwDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_clPuBTWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_clPuBjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_clPuBzWMEe2ioKx-Jmz9UQ">
+        <modelElement href="CPS-2232-Lab12.uml#_cezuwTWMEe2ioKx-Jmz9UQ"/>
+        <type xmi:id="_clPuCDWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_clQVADWMEe2ioKx-Jmz9UQ" name="setflavor">
+      <modelElement href="CPS-2232-Lab12.uml#_ce2yEDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_clQVATWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_clQVAjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_clQVAzWMEe2ioKx-Jmz9UQ" name="flavor">
+        <modelElement href="CPS-2232-Lab12.uml#_ce3ZIDWMEe2ioKx-Jmz9UQ"/>
+        <cardinality xmi:id="_clQVBDWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_clQVBTWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_clQVBjWMEe2ioKx-Jmz9UQ" name="howToEat">
+      <modelElement href="CPS-2232-Lab12.uml#_ce3ZITWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_clQVBzWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_clQVCDWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_clQVCTWMEe2ioKx-Jmz9UQ">
+        <modelElement href="CPS-2232-Lab12.uml#_ce4AMDWMEe2ioKx-Jmz9UQ"/>
+        <type xmi:id="_clQVCjWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_clQVCzWMEe2ioKx-Jmz9UQ" name="toString">
+      <modelElement href="CPS-2232-Lab12.uml#_ce84sDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_clQVDDWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_clQVDTWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_clQVDjWMEe2ioKx-Jmz9UQ">
+        <modelElement href="CPS-2232-Lab12.uml#_ce84sTWMEe2ioKx-Jmz9UQ"/>
+        <type xmi:id="_clQVDzWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ckv-sDWMEe2ioKx-Jmz9UQ" name="Sushi" generalizations="_cjmIIDWMEe2ioKx-Jmz9UQ">
+    <modelElement href="CPS-2232-Lab12.uml#_ceciYDWMEe2ioKx-Jmz9UQ"/>
+    <visualProperties xmi:id="_ckv-sTWMEe2ioKx-Jmz9UQ" position="221.0,220.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_ckv-sjWMEe2ioKx-Jmz9UQ" keyword="sameFile"/>
+    <visibility xmi:id="_ckv-szWMEe2ioKx-Jmz9UQ" label="~"/>
+    <attributes xmi:id="_ckv-tDWMEe2ioKx-Jmz9UQ" name="Name">
+      <modelElement href="CPS-2232-Lab12.uml#_cfwJ8DWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_ckv-tTWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_ckv-tjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ckv-tzWMEe2ioKx-Jmz9UQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ckv-uDWMEe2ioKx-Jmz9UQ" name="Flavor">
+      <modelElement href="CPS-2232-Lab12.uml#_cfymMDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_ckv-uTWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_ckv-ujWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ckv-uzWMEe2ioKx-Jmz9UQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ckv-vDWMEe2ioKx-Jmz9UQ" name="Rating">
+      <modelElement href="CPS-2232-Lab12.uml#_cfzNQDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_ckv-vTWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_ckv-vjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <type xmi:id="_ckv-vzWMEe2ioKx-Jmz9UQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ckv-wDWMEe2ioKx-Jmz9UQ" name="Sushi">
+      <modelElement href="CPS-2232-Lab12.uml#_ceipADWMEe2ioKx-Jmz9UQ"/>
+      <keywords xmi:id="_ckv-wTWMEe2ioKx-Jmz9UQ" keyword="create"/>
+      <visibility xmi:id="_ckv-wjWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_ckv-wzWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ckv-xDWMEe2ioKx-Jmz9UQ">
+        <modelElement href="CPS-2232-Lab12.uml#_cemTYTWMEe2ioKx-Jmz9UQ"/>
+        <type xmi:id="_ckv-xTWMEe2ioKx-Jmz9UQ" name="Sushi">
+          <modelElement href="CPS-2232-Lab12.uml#_ceciYDWMEe2ioKx-Jmz9UQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ckv-xjWMEe2ioKx-Jmz9UQ" name="Name">
+        <modelElement href="CPS-2232-Lab12.uml#_cej3IDWMEe2ioKx-Jmz9UQ"/>
+        <cardinality xmi:id="_ckv-xzWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ckv-yDWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ckv-yTWMEe2ioKx-Jmz9UQ" name="Flavor">
+        <modelElement href="CPS-2232-Lab12.uml#_cekeMDWMEe2ioKx-Jmz9UQ"/>
+        <cardinality xmi:id="_ckv-yjWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ckv-yzWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ckv-zDWMEe2ioKx-Jmz9UQ" name="Rating">
+        <modelElement href="CPS-2232-Lab12.uml#_celFQDWMEe2ioKx-Jmz9UQ"/>
+        <cardinality xmi:id="_ckv-zTWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+        <type xmi:id="_ckv-zjWMEe2ioKx-Jmz9UQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ckv-zzWMEe2ioKx-Jmz9UQ" name="howToEat">
+      <modelElement href="CPS-2232-Lab12.uml#_cem6cDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_ckv-0DWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_ckv-0TWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ckv-0jWMEe2ioKx-Jmz9UQ">
+        <modelElement href="CPS-2232-Lab12.uml#_cenhgDWMEe2ioKx-Jmz9UQ"/>
+        <type xmi:id="_ckv-0zWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ckv-1DWMEe2ioKx-Jmz9UQ" name="toString">
+      <modelElement href="CPS-2232-Lab12.uml#_cetBEDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_ckv-1TWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_ckv-1jWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ckv-1zWMEe2ioKx-Jmz9UQ">
+        <modelElement href="CPS-2232-Lab12.uml#_cetoIDWMEe2ioKx-Jmz9UQ"/>
+        <type xmi:id="_ckv-2DWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cltA8DWMEe2ioKx-Jmz9UQ" name="EdibleLab">
+    <modelElement href="CPS-2232-Lab12.uml#_cfBxMDWMEe2ioKx-Jmz9UQ"/>
+    <visualProperties xmi:id="_cltA8TWMEe2ioKx-Jmz9UQ" position="-171.0,421.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_cltA8jWMEe2ioKx-Jmz9UQ" keyword="sameFile"/>
+    <visibility xmi:id="_cltA8zWMEe2ioKx-Jmz9UQ" label="+"/>
+    <operations xmi:id="_cltA9DWMEe2ioKx-Jmz9UQ" name="main" staticOperation="true">
+      <modelElement href="CPS-2232-Lab12.uml#_cfDmYDWMEe2ioKx-Jmz9UQ"/>
+      <visibility xmi:id="_cltA9TWMEe2ioKx-Jmz9UQ" label="+"/>
+      <cardinality xmi:id="_cltA9jWMEe2ioKx-Jmz9UQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_cltA9zWMEe2ioKx-Jmz9UQ" name="args">
+        <modelElement href="CPS-2232-Lab12.uml#_cfDmYTWMEe2ioKx-Jmz9UQ"/>
+        <cardinality xmi:id="_cltA-DWMEe2ioKx-Jmz9UQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_cltA-TWMEe2ioKx-Jmz9UQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

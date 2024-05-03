@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_cFAHoDWMEe2ioKx-Jmz9UQ" name="CPS_2232_Lab12">
+    <eAnnotations xmi:id="_cMnLgDWMEe2ioKx-Jmz9UQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_cMnLgTWMEe2ioKx-Jmz9UQ" source="codegen">
+        <details xmi:id="_cMnLgjWMEe2ioKx-Jmz9UQ" key="codegenDirectory" value="/CPS-2232-Lab1/src"/>
+        <details xmi:id="_cjMfgDWMEe2ioKx-Jmz9UQ" key="AssociatedSourceCode" value="/CPS-2232-Lab1/src/lab1/Edible.java;3567309985/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_cdh8YDWMEe2ioKx-Jmz9UQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_cdijcDWMEe2ioKx-Jmz9UQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_cdjKgDWMEe2ioKx-Jmz9UQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_cdjKgTWMEe2ioKx-Jmz9UQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_cdjKgjWMEe2ioKx-Jmz9UQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_cdjKgzWMEe2ioKx-Jmz9UQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_cdjKhDWMEe2ioKx-Jmz9UQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_cdjxkDWMEe2ioKx-Jmz9UQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_cdjxkTWMEe2ioKx-Jmz9UQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cd-BQDWMEe2ioKx-Jmz9UQ" name="lab1">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ceXp4DWMEe2ioKx-Jmz9UQ" name="Edible" visibility="package">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_ceciYDWMEe2ioKx-Jmz9UQ" name="Sushi" visibility="package">
+          <eAnnotations xmi:id="_cegMwDWMEe2ioKx-Jmz9UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_cegMwTWMEe2ioKx-Jmz9UQ" key="sameFile"/>
+          </eAnnotations>
+          <ownedAttribute xmi:id="_cfwJ8DWMEe2ioKx-Jmz9UQ" name="Name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_cfymMDWMEe2ioKx-Jmz9UQ" name="Flavor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_cfzNQDWMEe2ioKx-Jmz9UQ" name="Rating">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_cfpcQDWMEe2ioKx-Jmz9UQ" client="_ceciYDWMEe2ioKx-Jmz9UQ" supplier="_ceXp4DWMEe2ioKx-Jmz9UQ" contract="_ceXp4DWMEe2ioKx-Jmz9UQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cf4FwDWMEe2ioKx-Jmz9UQ" name="Sushi" specification="_ceipADWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cf4FwTWMEe2ioKx-Jmz9UQ" name="Name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cf4FwjWMEe2ioKx-Jmz9UQ" name="Flavor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cf4FwzWMEe2ioKx-Jmz9UQ" name="Rating">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cf4FxDWMEe2ioKx-Jmz9UQ" type="_ceciYDWMEe2ioKx-Jmz9UQ" direction="return"/>
+            <language>java</language>
+            <body>this.Name = Name;&#xD;
+		this.Flavor = Flavor;&#xD;
+		this.Rating = Rating;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cf4s0DWMEe2ioKx-Jmz9UQ" name="howToEat" specification="_cem6cDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cf4s0TWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Pick  up  sushi  with  chopsticks&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cf-zcDWMEe2ioKx-Jmz9UQ" name="toString" specification="_cetBEDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cf-zcTWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return Name            +      &quot;             &quot;          + Flavor +         &quot;             &quot;   + Rating;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_ceipADWMEe2ioKx-Jmz9UQ" name="Sushi" method="_cf4FwDWMEe2ioKx-Jmz9UQ">
+            <eAnnotations xmi:id="_celsUDWMEe2ioKx-Jmz9UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_cemTYDWMEe2ioKx-Jmz9UQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_cej3IDWMEe2ioKx-Jmz9UQ" name="Name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cekeMDWMEe2ioKx-Jmz9UQ" name="Flavor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_celFQDWMEe2ioKx-Jmz9UQ" name="Rating">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cemTYTWMEe2ioKx-Jmz9UQ" type="_ceciYDWMEe2ioKx-Jmz9UQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cem6cDWMEe2ioKx-Jmz9UQ" name="howToEat" method="_cf4s0DWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cenhgDWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cetBEDWMEe2ioKx-Jmz9UQ" name="toString" method="_cf-zcDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cetoIDWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_cewEYDWMEe2ioKx-Jmz9UQ" name="Soup" visibility="package">
+          <eAnnotations xmi:id="_cewrcDWMEe2ioKx-Jmz9UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_cewrcTWMEe2ioKx-Jmz9UQ" key="sameFile"/>
+          </eAnnotations>
+          <ownedAttribute xmi:id="_cfz0UDWMEe2ioKx-Jmz9UQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_cfz0UTWMEe2ioKx-Jmz9UQ" name="flavor" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_cf1pgDWMEe2ioKx-Jmz9UQ" name="rating">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_cfrRcDWMEe2ioKx-Jmz9UQ" client="_cewEYDWMEe2ioKx-Jmz9UQ" supplier="_ceXp4DWMEe2ioKx-Jmz9UQ" contract="_ceXp4DWMEe2ioKx-Jmz9UQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cf_agDWMEe2ioKx-Jmz9UQ" name="Soup" specification="_cexSgDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cf_agTWMEe2ioKx-Jmz9UQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cf_agjWMEe2ioKx-Jmz9UQ" name="flavor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cf_agzWMEe2ioKx-Jmz9UQ" name="rating">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cf_ahDWMEe2ioKx-Jmz9UQ" type="_cewEYDWMEe2ioKx-Jmz9UQ" direction="return"/>
+            <language>java</language>
+            <body>this.name = name;&#xD;
+		this.flavor = flavor;&#xD;
+		this.rating = rating;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cgAooDWMEe2ioKx-Jmz9UQ" name="getflavor" specification="_cezuwDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cgAooTWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return flavor;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cgAoojWMEe2ioKx-Jmz9UQ" name="setflavor" specification="_ce2yEDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cgAoozWMEe2ioKx-Jmz9UQ" name="flavor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.flavor = flavor;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cgBPsDWMEe2ioKx-Jmz9UQ" name="howToEat" specification="_ce3ZITWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cgBPsTWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Use spoon to pick up soup&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cgB2wDWMEe2ioKx-Jmz9UQ" name="toString" specification="_ce84sDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cgB2wTWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return name + &quot;               &quot;  + flavor  + &quot;               &quot; +   rating;&#xD;
+		&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_cexSgDWMEe2ioKx-Jmz9UQ" name="Soup" method="_cf_agDWMEe2ioKx-Jmz9UQ">
+            <eAnnotations xmi:id="_ceygojWMEe2ioKx-Jmz9UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_cezHsDWMEe2ioKx-Jmz9UQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_cex5kDWMEe2ioKx-Jmz9UQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ceygoDWMEe2ioKx-Jmz9UQ" name="flavor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_ceygoTWMEe2ioKx-Jmz9UQ" name="rating">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_cezHsTWMEe2ioKx-Jmz9UQ" type="_cewEYDWMEe2ioKx-Jmz9UQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_cezuwDWMEe2ioKx-Jmz9UQ" name="getflavor" method="_cgAooDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cezuwTWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ce2yEDWMEe2ioKx-Jmz9UQ" name="setflavor" method="_cgAoojWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_ce3ZIDWMEe2ioKx-Jmz9UQ" name="flavor">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ce3ZITWMEe2ioKx-Jmz9UQ" name="howToEat" method="_cgBPsDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_ce4AMDWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_ce84sDWMEe2ioKx-Jmz9UQ" name="toString" method="_cgB2wDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_ce84sTWMEe2ioKx-Jmz9UQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_cfBxMDWMEe2ioKx-Jmz9UQ" name="EdibleLab">
+          <eAnnotations xmi:id="_cfCYQDWMEe2ioKx-Jmz9UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_cfCYQTWMEe2ioKx-Jmz9UQ" key="sameFile"/>
+          </eAnnotations>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cgB2wjWMEe2ioKx-Jmz9UQ" name="main" specification="_cfDmYDWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cgB2wzWMEe2ioKx-Jmz9UQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cgB2xDWMEe2ioKx-Jmz9UQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>Edible[] edibles = new Edible[4];&#xD;
+		edibles[0] = new Sushi(&quot;California Roll&quot;,&quot;Crab&quot;,10);&#xD;
+		edibles[1] = new Sushi(&quot;Tuna Roll &quot;,&quot;         Tuna&quot; ,10);&#xD;
+		edibles[2] = new Soup(&quot;Noodle Soup&quot;,&quot;Noodles&quot;,10);&#xD;
+		edibles[3] = new Soup(&quot;Chicken Soup&quot;,&quot;Chicken&quot;,10);&#xD;
+		 System.out.println(&quot;-----------------------------------------------------------------------------&quot;);&#xD;
+	        System.out.printf(&quot;%15s %15s %15s &quot;, &quot; Name &quot;, &quot;Flavor&quot;, &quot;Rating&quot; );&#xD;
+	        System.out.println();&#xD;
+	        System.out.println(&quot;-----------------------------------------------------------------------------&quot;);&#xD;
+	       &#xD;
+		for(Edible e: edibles){&#xD;
+			System.out.println();&#xD;
+		    System.out.println(e);&#xD;
+		    System.out.println();&#xD;
+	        &#xD;
+			System.out.println(e.howToEat());&#xD;
+			System.out.println();&#xD;
+			&#xD;
+			 System.out.println(e.howToCook());&#xD;
+			 System.out.println();&#xD;
+			&#xD;
+			&#xD;
+			&#xD;
+		}&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_cfDmYDWMEe2ioKx-Jmz9UQ" name="main" isStatic="true" method="_cgB2wjWMEe2ioKx-Jmz9UQ">
+            <ownedParameter xmi:id="_cfDmYTWMEe2ioKx-Jmz9UQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cfFbkDWMEe2ioKx-Jmz9UQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </nestedClassifier>
+        <ownedOperation xmi:id="_cfGCoDWMEe2ioKx-Jmz9UQ" name="howToEat" isAbstract="true">
+          <ownedParameter xmi:id="_cfHQwDWMEe2ioKx-Jmz9UQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_cfH30DWMEe2ioKx-Jmz9UQ" name="howToCook" method="_cgB2xTWMEe2ioKx-Jmz9UQ">
+          <eAnnotations xmi:id="_cfH30TWMEe2ioKx-Jmz9UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_cfH30jWMEe2ioKx-Jmz9UQ" key="defender"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_cfIe4DWMEe2ioKx-Jmz9UQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_cMwVcDWMEe2ioKx-Jmz9UQ">
+      <eAnnotations xmi:id="_cMwVcTWMEe2ioKx-Jmz9UQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_cM0m4DWMEe2ioKx-Jmz9UQ" base_Package="_cFAHoDWMEe2ioKx-Jmz9UQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ceovoDWMEe2ioKx-Jmz9UQ" base_Element="_cem6cDWMEe2ioKx-Jmz9UQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cerL4DWMEe2ioKx-Jmz9UQ" base_Element="_cem6cDWMEe2ioKx-Jmz9UQ">
+    <annotations xmi:id="_cesaADWMEe2ioKx-Jmz9UQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cetoITWMEe2ioKx-Jmz9UQ" base_Element="_cetBEDWMEe2ioKx-Jmz9UQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ceu2QDWMEe2ioKx-Jmz9UQ" base_Element="_cetBEDWMEe2ioKx-Jmz9UQ">
+    <annotations xmi:id="_ceu2QTWMEe2ioKx-Jmz9UQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ce4nQDWMEe2ioKx-Jmz9UQ" base_Element="_ce3ZITWMEe2ioKx-Jmz9UQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ce5OUDWMEe2ioKx-Jmz9UQ" base_Element="_ce3ZITWMEe2ioKx-Jmz9UQ">
+    <annotations xmi:id="_ce8RoDWMEe2ioKx-Jmz9UQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ce-G0DWMEe2ioKx-Jmz9UQ" base_Element="_ce84sDWMEe2ioKx-Jmz9UQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ce-G0TWMEe2ioKx-Jmz9UQ" base_Element="_ce84sDWMEe2ioKx-Jmz9UQ">
+    <annotations xmi:id="_ce-t4DWMEe2ioKx-Jmz9UQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cfJtADWMEe2ioKx-Jmz9UQ" base_Element="_cfH30DWMEe2ioKx-Jmz9UQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cf1CcDWMEe2ioKx-Jmz9UQ" base_Element="_cfz0UTWMEe2ioKx-Jmz9UQ"/>
+  <uml:OpaqueBehavior xmi:id="_cgB2xTWMEe2ioKx-Jmz9UQ" name="howToCook" specification="_cfH30DWMEe2ioKx-Jmz9UQ">
+    <ownedParameter xmi:id="_cgCd0DWMEe2ioKx-Jmz9UQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return &quot;Boil&quot;;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+</xmi:XMI>
